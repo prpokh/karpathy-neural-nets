@@ -1,0 +1,40 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Datasets & text files (Karpathy course uses names.txt, input.txt, etc.)
+data/
+datasets/
+*.csv
+*.txt
+!requirements.txt
+
+# Model weights & checkpoints (PyTorch / micrograd)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Logs & experiment tracking (TensorBoard / WandB)
+runs/
+wandb/
+*.log
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
